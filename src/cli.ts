@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import yargs from 'yargs';
 import { commandModule } from './commands/stacktrace';
 import { StacktraceCommandArgv } from './commands/stacktrace/types';
