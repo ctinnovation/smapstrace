@@ -126,6 +126,8 @@ jobs:
           npm ci
           npm run build
           cp package.json dist/
+          cp README.md dist/
+          cp LICENSE dist/
           cd dist/ && npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
