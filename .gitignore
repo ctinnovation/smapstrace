@@ -131,5 +131,3 @@ dist
 
 
 dist/
-*.js.map
-*.test
