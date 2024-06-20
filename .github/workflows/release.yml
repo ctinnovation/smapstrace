@@ -58,7 +58,7 @@ jobs:
               head: "release_${{ env.PACKAGE_VERSION }}",
               base: "main",
               title: "Release: [v${{ env.PACKAGE_VERSION }}]",
-              body: `PR created by Github Actions bot in order to release new version **v${{ env.PACKAGE_VERSION }}**.`
+              body: `PR created by Github Actions bot in order to release new version v${{ env.PACKAGE_VERSION }}.`
             })
             return res.data.number;
 
