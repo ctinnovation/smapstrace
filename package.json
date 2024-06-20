@@ -1,0 +1,29 @@
+{
+  "name": "smapstrace",
+  "version": "1.0.0",
+  "description": "Explore obfuscated stack trace",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "error-stack-parser": "^2.1.4",
+    "source-map": "^0.7.4",
+    "stacktrace-parser": "^0.1.10",
+    "stacktracey": "^2.1.8",
+    "yargs": "^17.7.2"
+  },
+  "bin": {
+    "smapstrace": "index.js"
+  }
+}
