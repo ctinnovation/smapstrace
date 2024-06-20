@@ -2,6 +2,9 @@
 
 Explore obfuscated code with source maps.
 
+![Smapstrace](smapstrace.jpeg)
+*Smapstrace according to Bing Image Generator*
+
 ## Stacktrace analyzer
 
 Analyze stack traces with source maps:
