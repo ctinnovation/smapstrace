@@ -1,6 +1,6 @@
 {
   "name": "smapstrace",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Explore obfuscated stack trace",
   "main": "dist/index.js",
   "scripts": {
